@@ -1,17 +1,17 @@
 # BLOCKERS — Flores Clean
 
-Last updated: 2026-03-13 (Phase 4 — Polish + GEO Audit)
+Last updated: 2026-03-13 (Phase 5 — Build & Deploy)
 
 ---
 
 ## Open Blockers
 
 ### BLOCKER-01 — Resend API Key
-- **Severity:** CRITICAL (blocks Phase 5 — Deploy)
-- **Status:** OPEN
-- **Description:** Resend API key is required for the contact form to send emails. A placeholder has been staged in `.env.local`.
-- **Action:** Obtain from Resend dashboard and update `.env.local` before Phase 5.
-- **Blocks:** Phase 5 (Deploy)
+- **Severity:** MEDIUM (contact form non-functional without it)
+- **Status:** OPEN — carried into production
+- **Description:** Resend API key is required for the contact form to send emails. A placeholder has been staged in `.env.local`. Build and deploy proceeded without it; the contact form will return an error until configured.
+- **Action:** Obtain from Resend dashboard and update `.env.local` on the production server.
+- **Blocks:** Contact form email delivery only
 
 ### BLOCKER-03 — Real Project Photos
 - **Severity:** LOW (non-blocking for Phase 5 deploy)
@@ -49,4 +49,6 @@ Last updated: 2026-03-13 (Phase 4 — Polish + GEO Audit)
 
 - Phase 0.5 (domain & email migration) skipped — new domain, no migration needed.
 - Build should be deployed to `floresclean.ca` (Namecheap/cPanel).
-- Phase 4 completed 2026-03-13. No critical blockers remain for Phase 5 except BLOCKER-01 (Resend API key).
+- Phase 4 completed 2026-03-13.
+- Phase 5 completed 2026-03-13. Build output committed to repo. Deployed to GitHub (test build — no cPanel deploy).
+- BLOCKER-01 (Resend API key) carried into production — contact form non-functional until configured.

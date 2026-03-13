@@ -14,7 +14,7 @@
 /coverage
 
 # next.js
-/.next/
+# /.next/ — included in repo for Phase 5 production deploy
 /out/
 
 # production

@@ -1,0 +1,2 @@
+# Exclude development-only artifacts from production build commit
+/dev/
