@@ -1,0 +1,173 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* ============================================================
+   TYPOGRAPHY
+   Heading: Urbanist (geometric, confident — suits Modern Specialist)
+   Body: Outfit (clean, modern, readable)
+   Variables set by layout.tsx via next/font
+   ============================================================ */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading), sans-serif;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+/* Tight tracking on display headings — precision feel */
+h1, h2 {
+  letter-spacing: -0.03em;
+}
+
+h3, h4 {
+  letter-spacing: -0.015em;
+}
+
+/* Generous line-height on body for readability */
+p, li {
+  line-height: 1.7;
+}
+
+/* ============================================================
+   CROSS-DEVICE COLOR SCHEME
+   This site is always dark — no light mode switching.
+   ============================================================ */
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* ============================================================
+   PALETTE: flores-dark
+   Custom dark palette — Modern Specialist / Commercial Cleaning
+   Base: Deep charcoal/near-black
+   Primary: Electric teal (#0ea5a9)
+   Text: Crisp white (#f5f5f5)
+
+   Color conversions to OKLCH:
+   #0a0a0a  → oklch(0.07 0 0)         — near-black base-100
+   #141414  → oklch(0.12 0 0)         — dark base-200
+   #2a2e35  → oklch(0.22 0.01 252)    — slate base-300
+   #4a5568  → oklch(0.38 0.02 252)    — muted slate neutral
+   #0ea5a9  → oklch(0.65 0.12 195)    — electric teal primary
+   #f5f5f5  → oklch(0.96 0 0)         — crisp white text
+   ============================================================ */
+
+[data-theme="flores-dark"] {
+  color-scheme: dark;
+
+  /* Primary: electric teal */
+  --color-primary: oklch(0.65 0.12 195);
+  --color-primary-content: oklch(0.07 0 0);
+
+  /* Secondary: cool slate */
+  --color-secondary: oklch(0.38 0.02 252);
+  --color-secondary-content: oklch(0.96 0 0);
+
+  /* Accent: lighter teal for hover/highlight */
+  --color-accent: oklch(0.75 0.10 195);
+  --color-accent-content: oklch(0.07 0 0);
+
+  /* Neutral: mid-slate for borders and dividers */
+  --color-neutral: oklch(0.28 0.015 252);
+  --color-neutral-content: oklch(0.85 0 0);
+
+  /* Base surfaces — dark editorial stack */
+  --color-base-100: oklch(0.07 0 0);
+  --color-base-200: oklch(0.12 0 0);
+  --color-base-300: oklch(0.22 0.01 252);
+
+  /* Content — crisp white */
+  --color-base-content: oklch(0.96 0 0);
+
+  /* Semantic */
+  --color-info: oklch(0.65 0.12 220);
+  --color-info-content: oklch(0.07 0 0);
+  --color-success: oklch(0.62 0.15 145);
+  --color-success-content: oklch(0.07 0 0);
+  --color-warning: oklch(0.78 0.15 80);
+  --color-warning-content: oklch(0.07 0 0);
+  --color-error: oklch(0.60 0.22 25);
+  --color-error-content: oklch(0.96 0 0);
+}
+
+/* ============================================================
+   SAFE AREA — viewport-fit:cover support
+   Used for edge-to-edge layout on notched/dynamic-island devices
+   ============================================================ */
+
+:root {
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-left: env(safe-area-inset-left, 0px);
+  --safe-right: env(safe-area-inset-right, 0px);
+}
+
+/* ============================================================
+   DESIGN TOKENS — Flores Clean
+   Dark editorial surfaces with glass/depth layering
+   ============================================================ */
+
+:root {
+  /* Surface layering system */
+  --surface-base: oklch(0.07 0 0);        /* #0a0a0a — deepest */
+  --surface-raised: oklch(0.12 0 0);      /* #141414 — cards */
+  --surface-elevated: oklch(0.22 0.01 252); /* #2a2e35 — modals, dropdowns */
+  --surface-float: oklch(0.28 0.015 252); /* #3a3f4a — floating UI */
+
+  /* Teal accent tokens */
+  --teal-primary: oklch(0.65 0.12 195);   /* #0ea5a9 */
+  --teal-glow: oklch(0.65 0.12 195 / 0.15);  /* Teal with 15% opacity for glows */
+  --teal-border: oklch(0.65 0.12 195 / 0.30); /* Teal border at 30% */
+
+  /* Text tokens */
+  --text-primary: oklch(0.96 0 0);        /* #f5f5f5 */
+  --text-muted: oklch(0.70 0 0);          /* Muted grey */
+  --text-subtle: oklch(0.45 0 0);         /* Subtle grey */
+}
+
+/* ============================================================
+   UTILITY: Geometric pattern overlay (subtle, no organic texture)
+   Applied as a pseudo-element where needed
+   ============================================================ */
+
+.geometric-pattern {
+  background-image:
+    linear-gradient(oklch(0.65 0.12 195 / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, oklch(0.65 0.12 195 / 0.03) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* ============================================================
+   LEGACY PALETTES (kept for reference — not used on this build)
+   ============================================================ */
+
+[data-theme="trades-bold"] {
+  color-scheme: light;
+  --color-primary: oklch(0.45 0.22 25);
+  --color-primary-content: oklch(0.97 0.01 25);
+  --color-secondary: oklch(0.30 0.02 256);
+  --color-secondary-content: oklch(0.97 0 0);
+  --color-accent: oklch(0.65 0.20 40);
+  --color-accent-content: oklch(0.20 0 0);
+  --color-neutral: oklch(0.22 0.01 256);
+  --color-neutral-content: oklch(0.92 0 0);
+  --color-base-100: oklch(1 0 0);
+  --color-base-200: oklch(0.96 0 0);
+  --color-base-300: oklch(0.91 0 0);
+  --color-base-content: oklch(0.22 0.01 256);
+  --color-info: oklch(0.70 0.15 220);
+  --color-info-content: oklch(0.97 0 0);
+  --color-success: oklch(0.65 0.18 145);
+  --color-success-content: oklch(0.97 0 0);
+  --color-warning: oklch(0.80 0.18 80);
+  --color-warning-content: oklch(0.20 0 0);
+  --color-error: oklch(0.55 0.22 25);
+  --color-error-content: oklch(0.97 0 0);
+}

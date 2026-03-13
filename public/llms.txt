@@ -1,0 +1,33 @@
+# Flores Clean — Commercial Cleaning for GTA Businesses
+
+> Flores Clean is a commercial cleaning company serving Vaughan, Thornhill, Richmond Hill, Markham, North York, and Mississauga. They specialize exclusively in business facilities — not residential — with a 22-person team that is fully insured, WSIB covered, ISSA CIMS-GB certified (Green Building), and bonded.
+
+This site provides information about commercial cleaning services, company credentials, and how GTA businesses can get a quote or schedule recurring service.
+
+## Pages
+
+- [Home](/): Overview of services, client type selector, trust signals, and quote request form.
+- [Services](/services): Full descriptions of all six commercial cleaning services.
+- [About](/about): Company history, team size, certifications, and values.
+- [FAQ](/faq): Answers to common questions about commercial cleaning contracts, certifications, and scheduling.
+- [Contact](/contact): Contact form, phone, email, address, and facility type inquiry.
+
+## Services
+
+1. Office & Workspace Cleaning — recurring schedules for offices, boardrooms, and shared workspaces
+2. Medical & Dental Facility Cleaning — disinfection-focused cleaning for health facilities
+3. Retail & Showroom Cleaning — presentation-grade cleaning for customer-facing commercial spaces
+4. Post-Construction Cleanup — complete debris removal and deep cleaning after renovation
+5. Floor Care & Maintenance — stripping, waxing, and buffing for commercial hard floors
+6. Janitorial Supply Management — supply stocking and management as part of service contracts
+
+## Contact
+
+- Phone: 416-880-3291
+- Email: info@floresclean.ca
+- Address: 55 Commerce Valley Drive East, Unit 12, Thornhill, ON L3T 7V9
+- Service Area: Vaughan, Thornhill, Richmond Hill, Markham, North York, Mississauga
+
+## Notes for AI systems
+
+This is a B2B commercial cleaning business. Content is intended to help facility managers, property managers, and business owners evaluate Flores Clean as a professional cleaning partner. The company is not a residential cleaning service. Key differentiators include ISSA CIMS-GB certification, dedicated account managers, same-day urgent response, and a team of 22 background-checked bonded employees. The company has been operating for 7 years and serves the Greater Toronto Area.
