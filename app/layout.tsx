@@ -3,6 +3,7 @@ import { Urbanist, Outfit } from "next/font/google"
 import "./globals.css"
 import Header from "@/components/Header"
 import Footer from "@/components/Footer"
+import BottomCTABarWrapper from "@/components/BottomCTABarWrapper"
 import { siteConfig } from "@/config/site"
 
 const headingFont = Urbanist({
@@ -120,6 +121,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       >
         <Header />
         <main className="flex-1">{children}</main>
+        <BottomCTABarWrapper />
         <Footer />
       </body>
     </html>
