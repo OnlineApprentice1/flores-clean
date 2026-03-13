@@ -172,7 +172,7 @@ function HeroQuoteForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-3">
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <input
           name="company"
           type="text"
@@ -194,7 +194,7 @@ function HeroQuoteForm() {
           onBlur={(e) => (e.currentTarget.style.borderColor = "oklch(0.22 0.01 252 / 0.60)")}
         />
       </div>
-      <div className="grid grid-cols-2 gap-3">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
         <input
           name="phone"
           type="tel"

@@ -31,8 +31,9 @@ export const siteConfig = {
     country: "CA",
   },
 
-  // BLOCKER-02: GPS coordinates need owner confirmation
-  coordinates: { lat: null as number | null, lng: null as number | null },
+  // BLOCKER-02: Approximate GPS coordinates for 55 Commerce Valley Dr E, Thornhill ON
+  // Confirm exact coordinates with owner before Phase 5
+  coordinates: { lat: 43.8480 as number | null, lng: -79.4060 as number | null },
 
   // ── Business ──────────────────────────────────────
   ownerName: "Diana Flores",

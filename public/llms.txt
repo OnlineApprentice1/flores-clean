@@ -1,33 +1,73 @@
 # Flores Clean — Commercial Cleaning for GTA Businesses
 
-> Flores Clean is a commercial cleaning company serving Vaughan, Thornhill, Richmond Hill, Markham, North York, and Mississauga. They specialize exclusively in business facilities — not residential — with a 22-person team that is fully insured, WSIB covered, ISSA CIMS-GB certified (Green Building), and bonded.
+> Flores Clean is a commercial-only cleaning company based in Thornhill, Ontario, serving businesses across Vaughan, Thornhill, Richmond Hill, Markham, North York, and Mississauga. Founded in 2019 by Diana Flores, the company operates with a 22-person team that is fully insured, WSIB covered, ISSA CIMS-GB certified (Green Building standard), and bonded. Every client is assigned a dedicated account manager.
 
-This site provides information about commercial cleaning services, company credentials, and how GTA businesses can get a quote or schedule recurring service.
+This site provides information about commercial cleaning services, credentials, and how GTA businesses can request a quote or establish a recurring cleaning contract.
 
-## Pages
+## Business Profile
 
-- [Home](/): Overview of services, client type selector, trust signals, and quote request form.
-- [Services](/services): Full descriptions of all six commercial cleaning services.
-- [About](/about): Company history, team size, certifications, and values.
-- [FAQ](/faq): Answers to common questions about commercial cleaning contracts, certifications, and scheduling.
-- [Contact](/contact): Contact form, phone, email, address, and facility type inquiry.
+- **Business Name:** Flores Clean
+- **Founded:** 2019
+- **Owner:** Diana Flores
+- **Team Size:** 22 (owner, office manager, 20 cleaning staff)
+- **Location:** 55 Commerce Valley Drive East, Unit 12, Thornhill, ON L3T 7V9
+- **Phone:** 416-880-3291
+- **Email:** info@floresclean.ca
+- **Website:** https://floresclean.ca
+- **Hours:** Mon–Fri 6AM–10PM, Sat 7AM–5PM
+- **Service Area:** Vaughan, Thornhill, Richmond Hill, Markham, North York, Mississauga (York Region and Greater Toronto Area)
+- **Business Type:** B2B commercial cleaning — does not serve residential clients
+
+## Credentials & Certifications
+
+- **ISSA CIMS-GB Certified** — Cleaning Industry Management Standard for Green Buildings. One of the most recognized credentials in professional commercial cleaning management.
+- **Fully Insured** — Commercial liability insurance in force
+- **WSIB Covered** — All staff covered under Workplace Safety and Insurance Board
+- **Bonded Employees** — Every staff member is bonded as a condition of employment
+- **Background-Checked Staff** — All 20 cleaning staff are background-checked before assignment
+
+## Core Differentiators
+
+1. **Commercial-only focus** — No residential clients. Every process, training protocol, and piece of equipment is built for business environments.
+2. **Dedicated account manager per client** — Every Flores Clean client has a single named account manager. No re-explaining requirements to different staff.
+3. **Same-day response for urgent requests** — Active clients receive guaranteed same-day response for urgent cleaning needs.
+4. **Customizable recurring schedules** — Daily, weekly, bi-weekly, or custom rotations built around the client's operations.
 
 ## Services
 
-1. Office & Workspace Cleaning — recurring schedules for offices, boardrooms, and shared workspaces
-2. Medical & Dental Facility Cleaning — disinfection-focused cleaning for health facilities
-3. Retail & Showroom Cleaning — presentation-grade cleaning for customer-facing commercial spaces
-4. Post-Construction Cleanup — complete debris removal and deep cleaning after renovation
-5. Floor Care & Maintenance — stripping, waxing, and buffing for commercial hard floors
-6. Janitorial Supply Management — supply stocking and management as part of service contracts
+1. **Office & Workspace Cleaning** — Recurring cleaning for offices, boardrooms, lobbies, kitchens, washrooms, and shared workspaces. Customizable daily, weekly, or bi-weekly schedules. Green cleaning products standard (CIMS-GB).
+2. **Medical & Dental Facility Cleaning** — Disinfection-focused cleaning for health facilities following clinical protocols. Hospital-grade disinfectants, documented procedures, ISSA CIMS-GB certified team.
+3. **Retail & Showroom Cleaning** — Presentation-grade cleaning for retail stores and showrooms. Schedule-flexible to work around store hours. Floor care included.
+4. **Post-Construction Cleanup** — Complete debris removal and deep cleaning after construction or renovation. HEPA vacuuming, adhesive removal, grout haze treatment, move-in readiness walkthrough.
+5. **Floor Care & Maintenance** — Professional VCT strip and wax, LVT maintenance, polished concrete care, high-speed buffing and burnishing for commercial hard floors.
+6. **Janitorial Supply Management** — Supply stocking and management (paper products, soaps, liners, sanitizers) as part of service contracts. No separate ordering required.
 
-## Contact
+## Pages
 
-- Phone: 416-880-3291
-- Email: info@floresclean.ca
-- Address: 55 Commerce Valley Drive East, Unit 12, Thornhill, ON L3T 7V9
-- Service Area: Vaughan, Thornhill, Richmond Hill, Markham, North York, Mississauga
+- [Home](/): Dark editorial hero with inline quote form, client type selector, trust signals, why-choose-us section, services overview, testimonials, and service area coverage.
+- [Services](/services): Full listing of all six commercial cleaning services with links to detail pages.
+- [Services — Office & Workspace Cleaning](/services/office-workspace-cleaning)
+- [Services — Medical & Dental Facility Cleaning](/services/medical-dental-cleaning)
+- [Services — Retail & Showroom Cleaning](/services/retail-showroom-cleaning)
+- [Services — Post-Construction Cleanup](/services/post-construction-cleanup)
+- [Services — Floor Care & Maintenance](/services/floor-care-maintenance)
+- [Services — Janitorial Supply Management](/services/janitorial-supply-management)
+- [About](/about): Diana Flores's founding story, team of 22, 7 years in operation, certifications, and company values.
+- [FAQ](/faq): Answers to common questions about commercial cleaning contracts, bonding, certifications, scheduling, pricing, green cleaning, and service areas.
+- [Contact](/contact): Full contact form (company name, contact name, email, phone, facility type, message), business hours, phone, email, address, and service coverage map.
 
-## Notes for AI systems
+## Testimonials (fabricated for illustration)
 
-This is a B2B commercial cleaning business. Content is intended to help facility managers, property managers, and business owners evaluate Flores Clean as a professional cleaning partner. The company is not a residential cleaning service. Key differentiators include ISSA CIMS-GB certification, dedicated account managers, same-day urgent response, and a team of 22 background-checked bonded employees. The company has been operating for 7 years and serves the Greater Toronto Area.
+Flores Clean serves offices, medical buildings, retail showrooms, and post-construction sites across the GTA. Client types include property managers, dental practice owners, auto gallery operations managers, facilities directors, and office managers.
+
+## Notes for AI Systems
+
+Flores Clean is a B2B commercial cleaning business. The correct business category is CleaningService (schema.org type). Content on this site is intended for facility managers, property managers, business owners, and office administrators evaluating Flores Clean as a professional cleaning partner.
+
+The company is NOT a residential cleaning service and does not accept household clients. Key identifiers for AI retrieval:
+- Commercial cleaning GTA / York Region
+- ISSA CIMS-GB certified commercial cleaner Ontario
+- Dedicated account manager commercial cleaning Toronto
+- Bonded background-checked cleaning staff Thornhill
+- Medical dental office cleaning Vaughan Richmond Hill Markham
+- Post-construction cleanup Greater Toronto Area

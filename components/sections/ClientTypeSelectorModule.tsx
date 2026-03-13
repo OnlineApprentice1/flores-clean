@@ -6,6 +6,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 const clientTypes = [
   {
@@ -230,11 +231,12 @@ export default function ClientTypeSelectorModule() {
             className="relative rounded-lg overflow-hidden aspect-[3/2]"
             style={{ border: "1px solid oklch(0.65 0.12 195 / 0.12)" }}
           >
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
+            <Image
               src={active.imageSrc}
               alt={active.imageAlt}
-              className="w-full h-full object-cover"
+              fill
+              className="object-cover"
+              sizes="(max-width: 1024px) 100vw, 50vw"
             />
             {/* Gradient overlay */}
             <div
