@@ -145,6 +145,69 @@ html {
 }
 
 /* ============================================================
+   INTERACTIVE LINK UTILITIES
+   Used in server components where JS event handlers can't be used.
+   ============================================================ */
+
+/* Teal text on hover */
+.hover-teal {
+  color: oklch(0.60 0 0);
+  transition: color 150ms;
+}
+.hover-teal:hover {
+  color: oklch(0.65 0.12 195);
+}
+
+/* Teal text (brighter base) on hover */
+.hover-teal-bright {
+  color: oklch(0.65 0.12 195);
+  transition: color 150ms;
+}
+.hover-teal-bright:hover {
+  color: oklch(0.80 0.10 195);
+}
+
+/* White text on hover */
+.hover-white {
+  color: oklch(0.60 0 0);
+  transition: color 150ms;
+}
+.hover-white:hover {
+  color: oklch(0.96 0 0);
+}
+
+/* Card border hover — teal */
+.hover-border-teal {
+  transition: border-color 200ms, box-shadow 200ms;
+}
+.hover-border-teal:hover {
+  border-color: oklch(0.65 0.12 195 / 0.35) !important;
+  box-shadow: 0 4px 28px oklch(0.65 0.12 195 / 0.10);
+}
+
+/* Image zoom on hover */
+.hover-img-zoom img {
+  transition: transform 300ms;
+}
+.hover-img-zoom:hover img {
+  transform: scale(1.05);
+}
+
+/* Teal CTA button — used in server components */
+.btn-teal {
+  background: oklch(0.65 0.12 195);
+  color: oklch(0.07 0 0);
+  font-family: var(--font-heading);
+  letter-spacing: -0.01em;
+  box-shadow: 0 0 20px oklch(0.65 0.12 195 / 0.25);
+  transition: background-color 150ms, box-shadow 150ms;
+}
+.btn-teal:hover {
+  background: oklch(0.72 0.12 195);
+  box-shadow: 0 0 28px oklch(0.65 0.12 195 / 0.40);
+}
+
+/* ============================================================
    LEGACY PALETTES (kept for reference — not used on this build)
    ============================================================ */
 
